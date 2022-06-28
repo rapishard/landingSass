@@ -197,6 +197,9 @@ html {
 
 .page {
   padding: 40px, 72px;
+  position: relative;
+  justify-content: center;
+  align-content: center;
 }
 
 .card {
