@@ -6,7 +6,7 @@ body {
 
 .navigation {
   height: 70px;
-  background: rgb(0, 0, 0);
+  background: rgb(7, 7, 7);
 }
 
 .nav-container {
@@ -24,7 +24,7 @@ body {
 }
 .brand a,
 .brand a:visited {
-  color: #f2eaea;
+  color: #f1eaea;
   text-decoration: none;
 }
 
@@ -44,8 +44,8 @@ nav ul li a {
   display: block;
   padding: 10px 20px 0 20px;
   line-height: 50px;
-  background: rgb(0, 0, 0);
-  color: #f2eaea;
+  background: rgb(7, 7, 7);
+  color: #f1eaea;
   text-decoration: none;
 }
 nav ul li a::before {
@@ -84,7 +84,7 @@ nav ul li ul li a {
   position: absolute;
   top: 0;
   right: 0;
-  background: rgb(0, 0, 0);
+  background: rgb(7, 7, 7);
   height: 70px;
   width: 70px;
 }
@@ -163,23 +163,16 @@ nav ul li ul li a {
     display: block !important;
   }
 }
-body,
-html {
-  height: 100%;
-  background-color: black;
-}
-
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   /* Set a specific height */
-  height: 30px;
-  width: 10px;
+  height: 80vh;
+  width: 55vw;
   /* Position and center the image to scale nicely on all screens */
-  background-position: left;
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
   position: relative;
 }
 
@@ -192,6 +185,21 @@ html {
   transform: translate(-50%, -50%);
 }
 
+body,
+html {
+  height: 100%;
+  background-color: black;
+}
+
 .text-color {
   color: rgb(248, 242, 242);
+}
+
+.page {
+  padding: 40px, 72px;
+}
+
+.card {
+  background-color: black;
+  color: white;
 }/*# sourceMappingURL=style.css.map */

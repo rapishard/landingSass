@@ -6,7 +6,7 @@ body {
 
 .navigation {
   height: 70px;
-  background: #fff;
+  background: rgb(7, 7, 7);
 }
 
 .nav-container {
@@ -24,7 +24,7 @@ body {
 }
 .brand a,
 .brand a:visited {
-  color: #0c0c0c;
+  color: #f1eaea;
   text-decoration: none;
 }
 
@@ -44,8 +44,8 @@ nav ul li a {
   display: block;
   padding: 10px 20px 0 20px;
   line-height: 50px;
-  background: #fff;
-  color: #0c0c0c;
+  background: rgb(7, 7, 7);
+  color: #f1eaea;
   text-decoration: none;
 }
 nav ul li a::before {
@@ -84,7 +84,7 @@ nav ul li ul li a {
   position: absolute;
   top: 0;
   right: 0;
-  background: #fff;
+  background: rgb(7, 7, 7);
   height: 70px;
   width: 70px;
 }
