@@ -55,4 +55,8 @@ body {
   color: white;
   justify-content: space-between;
   margin: 30px;
+}
+
+.cardColumn {
+  flex-direction: column;
 }/*# sourceMappingURL=card.css.map */
