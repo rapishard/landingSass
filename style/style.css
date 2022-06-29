@@ -288,4 +288,15 @@ body {
 
 .my-element {
   display: flex;
+}
+
+@media only screen and (min-width: 360px) {
+  /* For tablets: */
+  .img {
+    width: 5%;
+  }
+
+  .card {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=style.css.map */
