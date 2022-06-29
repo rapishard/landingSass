@@ -251,7 +251,7 @@ html {
 }
 
 .text-color {
-  color: rgb(248, 242, 242);
+  color: rgb(254, 254, 254);
 }
 
 .page {
@@ -284,4 +284,8 @@ body {
   padding: 1rem;
   background: var(--color-off-white);
   margin: 1rem auto;
+}
+
+.my-element {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
