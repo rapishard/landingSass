@@ -55,4 +55,9 @@
 
 .cardColumn {
   flex-direction: column;
+}
+
+.card2 {
+  height: 600px;
+  margin: 0;
 }/*# sourceMappingURL=card.css.map */
