@@ -12,13 +12,9 @@
     position: relative;
 }
 
-
-/* Place text in the middle of the image */
-
-.col-md-6 text-right {
-    text-align: right;
+.hero-text {
+    width: 250px;
     position: absolute;
-    top: 70%;
-    left: 20%;
-    transform: translate(-50%, -50%);
+    margin: 80px;
+    background-color: none;
 }

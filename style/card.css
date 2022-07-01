@@ -22,6 +22,14 @@
   padding: 0 10px;
 }
 
+.column2 {
+  float: left;
+  padding-left: 160px;
+  justify-content: flex-end;
+  width: 50%;
+  position: absolute;
+}
+
 /* Remove extra left and right margins, due to padding */
 .row {
   margin: 0 -5px;
