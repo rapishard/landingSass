@@ -22,10 +22,16 @@
 .column {
     float: left;
     width: 25%;
-    padding: 0 10px;
 }
 
 .column2 {
+    float: left;
+    justify-content: flex-end;
+    width: 250px;
+    position: absolute;
+}
+
+.column3 {
     float: left;
     padding-left: 160px;
     justify-content: flex-end;
@@ -80,4 +86,11 @@
 .card2 {
     height: 600px;
     margin: 0;
+}
+
+.cards {
+    float: left;
+    display: block;
+    width: 50%;
+    height: 50px;
 }

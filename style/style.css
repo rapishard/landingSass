@@ -174,18 +174,15 @@ nav ul li ul li a {
   height: 80vh;
   width: 55vw;
   /* Position and center the image to scale nicely on all screens */
-  background-position: center;
+  background-position: left;
   background-repeat: no-repeat;
   position: relative;
+  justify-content: flex-start;
 }
 
-/* Place text in the middle of the image */
-.col-md-6 text-right {
-  text-align: right;
+.hero-text {
   position: absolute;
-  top: 70%;
-  left: 20%;
-  transform: translate(-50%, -50%);
+  background-color: none;
 }
 
 /* .card {
@@ -209,7 +206,21 @@ nav ul li ul li a {
 .column {
   float: left;
   width: 25%;
-  padding: 0 10px;
+}
+
+.column2 {
+  float: left;
+  justify-content: flex-end;
+  width: 250px;
+  position: absolute;
+}
+
+.column3 {
+  float: left;
+  padding-left: 160px;
+  justify-content: flex-end;
+  width: 50%;
+  position: absolute;
 }
 
 /* Remove extra left and right margins, due to padding */
@@ -252,6 +263,13 @@ nav ul li ul li a {
   margin: 0;
 }
 
+.cards {
+  float: left;
+  display: block;
+  width: 50%;
+  height: 50px;
+}
+
 body,
 html {
   height: 100%;
@@ -260,7 +278,7 @@ html {
 }
 
 .text-color {
-  color: rgb(254, 254, 254);
+  color: rgb(255, 255, 255);
 }
 
 .page {
@@ -302,7 +320,7 @@ body {
 .button1 {
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
-  border: 2px solid purple;
+  border: 2px solid rgb(62, 49, 203);
   /* Green */
 }
 
