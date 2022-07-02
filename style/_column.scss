@@ -1,0 +1,30 @@
+/* Float four columns side by side */
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+.column2 {
+    justify-content: flex-start;
+    width: 50px;
+    position: absolute;
+}
+
+.column3 {
+    padding-left: 330px;
+    justify-content: flex-end;
+    width: 50px;
+    position: absolute;
+}
+
+
+/* Responsive columns */
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
