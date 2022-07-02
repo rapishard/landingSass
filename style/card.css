@@ -1,18 +1,32 @@
-/* .card {
-    background-color: black;
-    color: white;
-    display: flex;
-    display: -webkit-flex;
-    flex-flow: row nowrap;
-    -webkit-flex-flow: row nowrap;
-    align-items: stretch;
-    -webkit-align-items: stretch;
-    justify-content: space-between;
-    -webkit-justify-content: space-between;
-    margin-top: 10px;
-} */
 * {
   box-sizing: border-box;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: left;
+  background-color: #000000;
+  color: white;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+.cardColumn {
+  flex-direction: column;
+}
+
+.card2 {
+  height: 600px;
+  margin: 0;
+}
+
+.cards {
+  float: left;
+  display: block;
+  width: 50%;
+  height: 50px;
 }
 
 /* Float four columns side by side */
@@ -55,30 +69,4 @@
     display: block;
     margin-bottom: 20px;
   }
-}
-/* Style the counter cards */
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
-  text-align: left;
-  background-color: #000000;
-  color: white;
-  justify-content: space-between;
-  margin: 30px;
-}
-
-.cardColumn {
-  flex-direction: column;
-}
-
-.card2 {
-  height: 600px;
-  margin: 0;
-}
-
-.cards {
-  float: left;
-  display: block;
-  width: 50%;
-  height: 50px;
 }/*# sourceMappingURL=card.css.map */

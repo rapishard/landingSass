@@ -1,0 +1,35 @@
+body,
+html {
+    height: 100%;
+    background-color: black;
+    font-family: Sen, Helvetica, sans-serif;
+}
+
+.page {
+    padding: 40px, 72px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+body {
+    max-width: 50rem;
+    min-height: unset;
+    padding: 1rem;
+    background: var(--color-off-white);
+    margin: 1rem auto;
+}
+
+.my-element {
+    display: flex;
+}
+
+@media only screen and (min-width: 360px) {
+    /* For tablets: */
+    .img {
+        width: 5%;
+    }
+    .card {
+        flex-direction: column;
+    }
+}
