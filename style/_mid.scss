@@ -1,0 +1,13 @@
+    .mid-text {
+        background-color: #FBE4FF;
+        color: black;
+        width: 50%;
+        height: 46%;
+    }
+    
+    @media only screen and (min-width: 360px) {
+        /* For tablets: */
+        .mid-img {
+            width: 50px;
+        }
+    }

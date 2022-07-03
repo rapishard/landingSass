@@ -83,7 +83,7 @@ nav ul li a::before {
   height: 5px;
   content: "";
   position: absolute;
-  background-color: #f8b500;
+  background-color: #00f846;
   width: 0%;
   bottom: 0px;
 }
@@ -163,7 +163,7 @@ nav ul li ul li a {
   border-radius: 1px;
   height: 5px;
   width: 35px;
-  background: #f8b500;
+  background: #00f846;
   position: absolute;
   display: block;
   content: "";
@@ -198,7 +198,7 @@ nav ul li ul li a {
   width: 750px;
   height: 650px;
   left: 0px;
-  top: 125px;
+  top: 5px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   /* Set a specific height */
   height: 80vh;
@@ -207,7 +207,7 @@ nav ul li ul li a {
   background-position: left;
   background-repeat: no-repeat;
   position: relative;
-  justify-content: flex-start;
+  margin: 0%;
 }
 
 .hero-text {
@@ -232,6 +232,24 @@ nav ul li ul li a {
   top: 0px;
 }
 
+@media (max-width: 800px) {
+  .hero-image {
+    position: relative;
+    width: 360px;
+    height: 288px;
+    left: 0px;
+    top: 22px;
+  }
+
+  .hero-text {
+    position: absolute;
+    width: 120px;
+    height: 159px;
+    left: 280px;
+    top: 14px;
+    font-size: 10px;
+  }
+}
 * {
   box-sizing: border-box;
 }
@@ -341,7 +359,7 @@ nav ul li ul li a {
 
 .flex-item-left {
   padding: 10px;
-  flex: 50%;
+  flex: 25%;
 }
 
 .flex-item-right {
@@ -369,10 +387,21 @@ nav ul li ul li a {
   max-width: 100%;
 }
 
-.rectangle > article img {
-  grid-gap: 0px;
-  margin-top: 10px;
-  width: 200px;
+.rectangle {
+  box-sizing: content-box;
 }
 
+.mid-text {
+  background-color: #FBE4FF;
+  color: black;
+  width: 50%;
+  height: 46%;
+}
+
+@media only screen and (min-width: 360px) {
+  /* For tablets: */
+  .mid-img {
+    width: 50px;
+  }
+}
 /* @import "_normalize"; *//*# sourceMappingURL=style.css.map */

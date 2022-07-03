@@ -1,39 +1,57 @@
-/* The hero image */
-
-.hero-image {
-    width: 750px;
-    height: 650px;
-    left: 0px;
-    top: 125px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-    /* Set a specific height */
-    height: 80vh;
-    width: 55vw;
-    /* Position and center the image to scale nicely on all screens */
-    background-position: left;
-    background-repeat: no-repeat;
-    position: relative;
-    justify-content: flex-start;
-}
-
-.hero-text {
-    position: absolute;
-    width: 320px;
-    height: 259px;
-    left: 580px;
-    top: 28px;
-    font-size: 20px;
-    /* position: absolute;
+                        /* The hero image */
+                        
+                        .hero-image {
+                            width: 750px;
+                            height: 650px;
+                            left: 0px;
+                            top: 5px;
+                            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+                            /* Set a specific height */
+                            height: 80vh;
+                            width: 55vw;
+                            /* Position and center the image to scale nicely on all screens */
+                            background-position: left;
+                            background-repeat: no-repeat;
+                            position: relative;
+                            margin: 0%;
+                        }
+                        
+                        .hero-text {
+                            position: absolute;
+                            width: 320px;
+                            height: 259px;
+                            left: 580px;
+                            top: 28px;
+                            font-size: 20px;
+                            /* position: absolute;
     width: 720px;
     height: 359px;
     left: 680px;
     top: 268px; */
-}
-
-.rectangle {
-    position: absolute;
-    width: 900px;
-    height: 900px;
-    left: 540px;
-    top: 0px;
-}
+                        }
+                        
+                        .rectangle {
+                            position: absolute;
+                            width: 900px;
+                            height: 900px;
+                            left: 540px;
+                            top: 0px;
+                        }
+                        
+                        @media (max-width: 800px) {
+                            .hero-image {
+                                position: relative;
+                                width: 360px;
+                                height: 288px;
+                                left: 0px;
+                                top: 22px;
+                            }
+                            .hero-text {
+                                position: absolute;
+                                width: 120px;
+                                height: 159px;
+                                left: 280px;
+                                top: 14px;
+                                font-size: 10px;
+                            }
+                        }
