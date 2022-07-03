@@ -1,17 +1,15 @@
-    .mid-text {
-        background-color: #FBE4FF;
-        color: black;
-        width: 50%;
-        height: 50%;
-    }
-    
+.mid-text {
+    background-color: #FBE4FF;
+    color: black;
+    width: 50%;
+    height: 50%;
+}
+
+.mid-img {}
+
+@media only screen and (min-width: 360px) {
+    /* For tablets: */
     .mid-img {
-        width: 100px;
+        width: 20%;
     }
-    
-    @media only screen and (min-width: 360px) {
-        /* For tablets: */
-        .mid-img {
-            width: 60%;
-        }
-    }
+}

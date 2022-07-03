@@ -83,7 +83,7 @@ nav ul li a::before {
   height: 5px;
   content: "";
   position: absolute;
-  background-color: #00f846;
+  background-color: #f8b500;
   width: 0%;
   bottom: 0px;
 }
@@ -163,7 +163,7 @@ nav ul li ul li a {
   border-radius: 1px;
   height: 5px;
   width: 35px;
-  background: #00f846;
+  background: #f8b500;
   position: absolute;
   display: block;
   content: "";
@@ -284,14 +284,8 @@ nav ul li ul li a {
   height: 50px;
 }
 
-@media screen and (min-width: 360px) {
-  .cardColumn {
-    width: 50%;
-  }
-}
 .text-color {
   color: rgb(255, 255, 255);
-  font-family: "Sen";
 }
 
 .button1 {
@@ -320,8 +314,9 @@ nav ul li ul li a {
 }
 
 /* Responsive columns */
-@media screen and (min-width: 360px) {
+@media screen and (max-width: 600px) {
   .column {
+    width: 100%;
     display: block;
     margin-bottom: 20px;
   }
@@ -367,7 +362,7 @@ nav ul li ul li a {
 
 .flex-item-left {
   padding: 10px;
-  flex: 25%;
+  flex: 50%;
 }
 
 .flex-item-right {
@@ -376,7 +371,7 @@ nav ul li ul li a {
 }
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */
-@media screen and (min-width: 360px) {
+@media (max-width: 800px) {
   .flex-container {
     flex-direction: column;
   }
@@ -395,10 +390,6 @@ nav ul li ul li a {
   max-width: 100%;
 }
 
-.rectangle {
-  box-sizing: content-box;
-}
-
 .mid-text {
   background-color: #FBE4FF;
   color: black;
@@ -406,14 +397,10 @@ nav ul li ul li a {
   height: 50%;
 }
 
-.mid-img {
-  width: 100px;
-}
-
 @media only screen and (min-width: 360px) {
   /* For tablets: */
   .mid-img {
-    width: 60%;
+    width: 20%;
   }
 }
 /* @import "_normalize"; *//*# sourceMappingURL=style.css.map */
