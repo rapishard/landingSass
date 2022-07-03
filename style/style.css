@@ -369,4 +369,10 @@ nav ul li ul li a {
   max-width: 100%;
 }
 
+.rectangle > article img {
+  grid-gap: 0px;
+  margin-top: 10px;
+  width: 200px;
+}
+
 /* @import "_normalize"; *//*# sourceMappingURL=style.css.map */
