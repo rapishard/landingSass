@@ -2,12 +2,16 @@
         background-color: #FBE4FF;
         color: black;
         width: 50%;
-        height: 46%;
+        height: 50%;
+    }
+    
+    .mid-img {
+        width: 100px;
     }
     
     @media only screen and (min-width: 360px) {
         /* For tablets: */
         .mid-img {
-            width: 50px;
+            width: 60%;
         }
     }

@@ -1,14 +1,12 @@
                         /* The hero image */
                         
                         .hero-image {
-                            width: 750px;
-                            height: 650px;
-                            left: 0px;
-                            top: 5px;
+                            width: 3250px;
+                            height: 300px;
                             background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
                             /* Set a specific height */
-                            height: 80vh;
-                            width: 55vw;
+                            height: 60vh;
+                            width: 47vw;
                             /* Position and center the image to scale nicely on all screens */
                             background-position: left;
                             background-repeat: no-repeat;
@@ -18,27 +16,27 @@
                         
                         .hero-text {
                             position: absolute;
-                            width: 320px;
+                            width: 120px;
                             height: 259px;
-                            left: 580px;
-                            top: 28px;
+                            left: 780px;
+                            top: 110px;
                             font-size: 20px;
-                            /* position: absolute;
-    width: 720px;
-    height: 359px;
-    left: 680px;
-    top: 268px; */
+                            background-color: none;
                         }
                         
                         .rectangle {
-                            position: absolute;
+                            position: relative;
                             width: 900px;
                             height: 900px;
                             left: 540px;
                             top: 0px;
                         }
                         
-                        @media (max-width: 800px) {
+                        .heroColumn {
+                            flex-direction: column-reverse;
+                        }
+                        
+                        @media (min-width: 360px) {
                             .hero-image {
                                 position: relative;
                                 width: 360px;
@@ -48,10 +46,15 @@
                             }
                             .hero-text {
                                 position: absolute;
-                                width: 120px;
-                                height: 159px;
-                                left: 280px;
-                                top: 14px;
-                                font-size: 10px;
+                                width: 320px;
+                                height: 117px;
+                                left: 20px;
+                                top: 48px;
+                                font-size: 15px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 38px;
+                                display: flex;
+                                align-items: center;
                             }
                         }
