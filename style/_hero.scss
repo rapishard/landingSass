@@ -30,3 +30,23 @@ html {
     color: white;
     align-content: flex-start;
 }
+
+@media screen and (min-width: 360px) {
+    .hero-text {
+        text-align: left;
+        position: absolute;
+        left: 5px;
+        top: 6px;
+        width: 80px;
+        height: 30px;
+    }
+    .hero-image {
+        /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+        background-size: cover;
+        position: relative;
+        width: 350px;
+        height: 250px;
+        left: 0px;
+        top: 125px;
+    }
+}
