@@ -7,46 +7,25 @@ html {
 /* The hero image */
 
 .hero-image {
-    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/Rectangle\ 37.png");
-    /* Set a specific height */
-    height: 50%;
-    /* Position and center the image to scale nicely on all screens */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    width: 450px;
+    height: 350px;
 }
-
-
-/* Place text in the middle of the image */
 
 .hero-text {
     text-align: left;
     position: absolute;
-    top: 50%;
-    left: 70%;
-    transform: translate(-50%, -50%);
-    color: white;
-    align-content: flex-start;
 }
 
 @media screen and (min-width: 360px) {
     .hero-text {
         text-align: left;
-        position: absolute;
-        left: 5px;
-        top: 6px;
-        width: 80px;
-        height: 30px;
-    }
-    .hero-image {
-        /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-        background-size: cover;
         position: relative;
-        width: 350px;
-        height: 250px;
         left: 0px;
-        top: 125px;
+        top: 0px;
+        align-content: center;
     }
 }
