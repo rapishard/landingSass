@@ -1,7 +1,8 @@
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-gap: 100px;
+    /*     grid-gap: 100px;
+ */
     align-items: normal;
 }
 
@@ -12,4 +13,10 @@
 
 .grid>article img {
     max-width: 100%;
+}
+
+@media screen and (max-width: 1920px) {
+    .grid>article img {
+        max-width: 150%;
+    }
 }

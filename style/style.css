@@ -201,7 +201,8 @@ nav ul li ul li a {
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-gap: 100px;
+  /*     grid-gap: 100px;
+  */
   align-items: normal;
 }
 
@@ -212,6 +213,11 @@ nav ul li ul li a {
   max-width: 100%;
 }
 
+@media screen and (max-width: 1920px) {
+  .grid > article img {
+    max-width: 150%;
+  }
+}
 * {
   box-sizing: border-box;
 }
@@ -277,9 +283,7 @@ nav ul li ul li a {
 .mid-text {
   background-color: #FBE4FF;
   color: black;
-  padding: 80px 42px;
-  /* width: 50%;
-  height: 50%; */
+  padding: 10px 10px;
 }
 
 .mid-img {
@@ -304,7 +308,6 @@ nav ul li ul li a {
   clear: both;
 }
 
-/* Style the counter cards */
 .midCard {
   /* this adds the "card" effect */
   text-align: left;
