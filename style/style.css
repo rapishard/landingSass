@@ -201,21 +201,24 @@ nav ul li ul li a {
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  /*     grid-gap: 100px;
-  */
+  grid-gap: 100px;
   align-items: normal;
 }
 
-/* .grid>article {
-    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
-} */
+.grid-mid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  align-items: normal;
+}
+
 .grid > article img {
   max-width: 100%;
 }
 
 @media screen and (max-width: 1920px) {
   .grid > article img {
-    max-width: 150%;
+    /*             max-width: 150%;
+    */
   }
 }
 * {
@@ -320,6 +323,10 @@ nav ul li ul li a {
     width: 50%;
     display: block;
     margin-bottom: 20px;
+  }
+
+  .mid-img {
+    width: 40%;
   }
 }
 /* Remove extra left and right margins, due to padding */
